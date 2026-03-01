@@ -1,1 +1,29 @@
-[]
+[
+    {
+        "username": "Abdi",
+        "password": "lol",
+        "scores": []
+    },
+    {
+        "username": "sa",
+        "password": "as",
+        "scores": []
+    },
+    {
+        "username": "abdi",
+        "password": "abdi",
+        "scores": []
+    },
+    {
+        "username": "India",
+        "password": "cool",
+        "scores": []
+    },
+    {
+        "username": "soma",
+        "password": "boma",
+        "scores": [
+            3
+        ]
+    }
+]

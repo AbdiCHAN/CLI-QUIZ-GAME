@@ -1,47 +1,47 @@
 [
-  {
-    "question": "What is the capital of Kenya?",
-    "options": ["A. Nairobi", "B. Mombasa", "C. Kisumu", "D. Nakuru"],
-    "answer": "A"
-  },
-  {
-    "question": "What is 3 + 2?",
-    "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
-    "answer": "B"
-  },
-  {
-    "question": "Which planet is known as the Red Planet?",
-    "options": ["A. Earth", "B. Mars", "C. Jupiter", "D. Venus"],
-    "answer": "B"
-  },
-  {
-    "question": "Which language is used to write Python programs?",
-    "options": ["A. English", "B. Java", "C. Python", "D. HTML"],
-    "answer": "C"
-  },
-  {
-    "question": "What is the largest ocean in the world?",
-    "options": [
-      "A. Indian Ocean",
-      "B. Atlantic Ocean",
-      "C. Pacific Ocean",
-      "D. Arctic Ocean"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "How many continents are there?",
-    "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
-    "answer": "C"
-  },
-  {
-    "question": "What does CPU stand for?",
-    "options": [
-      "A. Central Processing Unit",
-      "B. Computer Personal Unit",
-      "C. Central Print Unit",
-      "D. Control Processing Utility"
-    ],
-    "answer": "A"
-  }
+    {
+        "question": "What is the capital of Kenya?",
+        "options": ["A. Nairobi", "B. Mombasa", "C. Kisumu", "D. Nakuru"],
+        "answer": "A"
+    },
+    {
+        "question": "What is 3 + 2?",
+        "options": ["A. 4", "B. 5", "C. 6", "D. 7"],
+        "answer": "B"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["A. Earth", "B. Mars", "C. Jupiter", "D. Venus"],
+        "answer": "B"
+    },
+    {
+        "question": "Which language is used to write Python programs?",
+        "options": ["A. English", "B. Java", "C. Python", "D. HTML"],
+        "answer": "C"
+    },
+    {
+        "question": "What is the largest ocean in the world?",
+        "options": [
+            "A. Indian Ocean",
+            "B. Atlantic Ocean",
+            "C. Pacific Ocean",
+            "D. Arctic Ocean"
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "How many continents are there?",
+        "options": ["A. 5", "B. 6", "C. 7", "D. 8"],
+        "answer": "C"
+    },
+    {
+        "question": "What does CPU stand for?",
+        "options": [
+            "A. Central Processing Unit",
+            "B. Computer Personal Unit",
+            "C. Central Print Unit",
+            "D. Control Processing Utility"
+        ],
+        "answer": "A"
+    }
 ]

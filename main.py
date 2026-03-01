@@ -1,34 +1,38 @@
-import argparse
+# main.py
 from models.game import Game
-
+from rich import print
 
 def main():
-    parser = argparse.ArgumentParser(description="CLI Quiz Game")
-    subparsers = parser.add_subparsers(dest="command")
-
-    subparsers.add_parser("register")
-    subparsers.add_parser("login")
-    subparsers.add_parser("play")
-
-    args = parser.parse_args()
     game = Game()
 
-    if args.command == "register":
-        username = input("Username: ")
-        password = input("Password: ")
-        game.register(username, password)
+    while True:
+        print("\n[bold]CLI Quiz Game[/bold]")
+        print("1. Register")
+        print("2. Login")
+        print("3. Play Quiz")
+        print("4. Exit")
 
-    elif args.command == "login":
-        username = input("Username: ")
-        password = input("Password: ")
-        game.login(username, password)
+        choice = input("Choose an option: ")
 
-    elif args.command == "play":
-        game.play_quiz()
+        if choice == "1":
+            username = input("Username: ")
+            password = input("Password: ")
+            game.register(username, password)
 
-    else:
-        parser.print_help()
+        elif choice == "2":
+            username = input("Username: ")
+            password = input("Password: ")
+            game.login(username, password)
 
+        elif choice == "3":
+            game.play_quiz()
+
+        elif choice == "4":
+            print("[bold green]Goodbye![/bold green]")
+            break
+
+        else:
+            print("[red]Invalid choice.[/red]")
 
 if __name__ == "__main__":
     main()
